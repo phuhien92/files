@@ -1,8 +1,10 @@
+# @range in 1..1000
+# @require: mutiples of 3 or 3
+# @result : sum
+
 def sum(n)
 	sum = 0
-	n.times do |num|
-		sum = sum + num if num%3==0 || num%5==0
-	end
+	(1..(n-1)).each {|n| sum = sum + n if n%3==0 || n%5==0 }
 	sum
 end
 
