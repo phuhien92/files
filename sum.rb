@@ -3,9 +3,7 @@
 # @result : sum
 
 def sum(n)
-	sum = 0
-	(1..(n-1)).each {|n| sum = sum + n if n%3==0 || n%5==0 }
-	sum
+  return (1..(n-1)).inject(0) { |sum,number| (number%3==0 || number%5==0) ? sum + number : sum }
 end
 
 puts sum(1000)
