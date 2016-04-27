@@ -1,5 +1,5 @@
 # @range in 1..1000
-# @require: mutiples of 3 or 3
+# @require: mutiples of 3 or 5
 # @result : sum
 
 def sum(n)
