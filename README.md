@@ -1,3 +1,5 @@
+#Interview Collection
+
 Write a function that outputs 7 in the two following situations:
 
 	add(3)(4); // 7
