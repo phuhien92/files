@@ -1,7 +1,7 @@
 Write a function that outputs 7 in the two following situations:
 
-add(3)(4); // 7
-add(3,4); // 7
+	add(3)(4); // 7
+	add(3,4); // 7
 
 	function sum(first, second) {
 		return first + second;
