@@ -37,3 +37,17 @@ Write a function that takes an array as a parameter. The array contains non-nega
 
 	    	return odds.to_s
 	end 
+	
+#Question:
+
+Write a function that prints all possible combinations for a lock with the following properties: combinations are 4 digits of the form MMDD; no digit occurs more than once.
+
+Assume all months have 31 days. 
+
+Examples of valid combinations:
+* 0123 - January 23
+* 0931 - September 31 - OK even though Sept doesn't have 31 days
+
+Examples of invalid combinations:
+* 0121 - January 21 has a repeated digit (1)
+* 0935 - No month has 35 days
