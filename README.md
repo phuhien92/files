@@ -38,7 +38,7 @@ Write a function that takes an array as a parameter. The array contains non-nega
 	    	return odds.to_s
 	end 
 	
-#Question:
+#Question (o.u.t.r.e.a.c.h):
 
 Write a function that prints all possible combinations for a lock with the following properties: combinations are 4 digits of the form MMDD; no digit occurs more than once.
 
